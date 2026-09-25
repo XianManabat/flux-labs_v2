@@ -1,6 +1,14 @@
 import SideBar from "./components/sidebar";
 import "./globals.css";
 
+export const metadata = {
+  title: "FluxLabs",
+  description: "Overlapping books",
+  icons: {
+    icon: "/icon.png"
+  },
+};
+
 export default function RootLayout({ children,
 }: {
   children: React.ReactNode;
